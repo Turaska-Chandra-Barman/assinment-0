@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #F8F9FA;
+
+}
+
+
+
+
+nav {
+    & .main{
+        max-width: 1600px;
+        margin-inline: auto;
+    }
+
+  & .btn{
+    font-size: .9rem;
+}   
+    
+
+}
+.hero-section{
+    margin-top: 180px;
+    & h1{
+        max-width: 500px;
+        font-size: 3.4rem;
+    }
+    & p{
+        max-width: 20rem;
+    }
+    & img{
+        width: 100%;
+    }
+}
+
+.colabaretion{
+
+    margin-top: 10rem;
+    background-color: #fff;
+}
+
+.card-container img{
+    max-width: 20px;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+footer{
+    margin-top: 10rem !important;
+    & ul{
+        margin-bottom: 3rem !important;
+    }
+}
